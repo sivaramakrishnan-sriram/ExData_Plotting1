@@ -28,3 +28,5 @@ with(data, {
   plot(Global_reactive_power ~ Datetime, type = "l", 
        ylab = "Global_rective_power", xlab = "datetime")
 })
+dev.copy(png, file="plot4.png", width=480, height=480)
+dev.off()
